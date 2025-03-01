@@ -1,0 +1,105 @@
+* {
+    display: box;
+}
+body {
+    background-image: linear-gradient(to top right, black, gray);
+    color: white;
+    text-shadow: 0px 4px 4px black;
+}
+.main-section {
+  width: 80%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 600px;
+  border: rgb(221, 205, 205) double 5px;
+}
+h1 {
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+    max-width: 600px;
+    background-color: rgb(41, 40, 40);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 3.75rem;
+    color: bisque;
+    font-family: Courier, monospace, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+}
+.background {
+    padding: 0;
+    max-width: 100%;
+    max-height: 30%;
+    position: relative;
+    margin: 0%;
+    z-index: 1;
+}
+.albums {
+    img {
+       margin: auto;
+       width: 165px;
+       height: 165px; 
+    }
+    text-align: left;
+    
+}
+.album-info {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.6rem;
+    font-weight: 475;
+}
+a:link, a:visited {
+    color: white;
+}
+.timestamp {
+    font-style: italic;
+}
+.border {
+    border: 5px solid black;
+    padding: 10px;
+}
+.dance {
+    background-image: linear-gradient(to bottom right, gray, black);
+}
+.hunter {
+    background-image: linear-gradient(to bottom right, black, rgb(180, 13, 180), black);
+}
+.paris {
+    background-image: linear-gradient(to bottom right, gold, black);
+}
+.country{
+    background-image: linear-gradient(to bottom right, rgb(28, 28, 175), black);
+}
+.feathers {
+    background-image: linear-gradient(to bottom right, rgb(169, 162, 162), black);
+}
+.apocalypse {
+    background-image: linear-gradient(to bottom right, rgb(110, 142, 110), black);
+}
+.waltz {
+    background-image: linear-gradient(to bottom right, rgb(131, 92, 92), black);
+}
+.avatar {
+    background-image: linear-gradient(to bottom right, rgb(166, 129, 59), black);
+}
+.schlacht {
+    background-image: linear-gradient(to bottom right, rgb(206, 79, 79), black);
+}
+.tomorrow  {
+    background-image: linear-gradient(to bottom right, rgb(68, 10, 68), black);
+}
+.foot-note {
+    color:  black;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.25rem;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.5px;
+}
+
